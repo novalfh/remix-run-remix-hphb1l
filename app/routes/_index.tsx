@@ -40,9 +40,18 @@
 //   );
 // }
 
+import { Link } from "@remix-run/react"
+
+
+
 const Index = () => {
   return (
-    <h1>HelloWorld</h1>
+    <>
+      <Link to='contact'>sd</Link>
+      <br></br>
+      <a href="/contact">gg</a>
+      <h1>HelloWorld</h1>
+    </>
   )
 }
 
