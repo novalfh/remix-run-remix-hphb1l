@@ -47,7 +47,7 @@ import { Link } from "@remix-run/react"
 const Index = () => {
   return (
     <>
-      <Link to='contact'>sd</Link>
+      <Link to='/contact'>go to contact</Link>
       <br></br>
       <a href="/contact">gg</a>
       <h1>HelloWorld</h1>
