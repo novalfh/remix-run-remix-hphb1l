@@ -28,6 +28,7 @@ export default function App() {
         <Scripts />
         <LiveReload />
         <h1>What are we fighting for</h1>
+        <p>Hello WOrld</p>
       </body>
     </html>
   );
