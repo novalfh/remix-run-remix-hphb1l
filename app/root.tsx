@@ -27,6 +27,7 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <h1>What are we fighting for</h1>
       </body>
     </html>
   );
