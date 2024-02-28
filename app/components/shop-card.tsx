@@ -7,7 +7,7 @@ export const ShopCard = () => {
                 <li>1</li>
                 <li>2</li>
                 <li>3</li>
-                <p>L</p>
+                <p>Lss</p>
             </ul>
         </div>
     )
