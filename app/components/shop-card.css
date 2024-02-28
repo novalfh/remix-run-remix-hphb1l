@@ -1,0 +1,9 @@
+.shop-card {
+    display: flex;
+    background-color: grey;
+    /* flex-direction: column; */
+}
+
+.shop-card li {
+    font-size: 2rem;
+}

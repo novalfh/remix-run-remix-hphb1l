@@ -49,7 +49,7 @@ const Index = () => {
     <>
       <Link to='/contact'>go to contact</Link>
       <br></br>
-      <a href="/contact">gg</a>
+      <a href="/shop">shop</a>
       <h1>HelloWorld</h1>
     </>
   )
