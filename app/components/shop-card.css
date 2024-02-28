@@ -4,6 +4,10 @@
     /* flex-direction: column; */
 }
 
+.shop-card:hover {
+    background-color: rgb(184, 79, 79);
+}
+
 .shop-card li {
     font-size: 2rem;
     background-color: #992626;

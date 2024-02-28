@@ -15,5 +15,5 @@ export const ShopCard = () => {
 
 
 export function links () {
-    return [{rel:'stylesheet', href:cardStyle}]
+    return {rel:'stylesheet', href:cardStyle}
 }

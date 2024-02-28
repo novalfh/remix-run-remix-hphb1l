@@ -14,5 +14,5 @@ export default Shop;
 ///
 
 export function links () {
-    return [...cardstyle()]
+    return [cardstyle()]
 }
