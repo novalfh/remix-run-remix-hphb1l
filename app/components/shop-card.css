@@ -1,7 +1,10 @@
 .shop-card {
     display: flex;
     background-color: grey;
+    cursor: pointer;
+
     /* flex-direction: column; */
+    
 }
 
 .shop-card:hover {

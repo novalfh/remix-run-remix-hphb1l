@@ -9,6 +9,13 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+///
+
+// import { Typography } from '@mui/material';
+import {Button, TextField} from '@mui/material'
+
+///
+
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
@@ -24,6 +31,7 @@ export default function App() {
       </head>
       <body>
         <Outlet />
+        <TextField variant='outlined' label='name'></TextField>
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

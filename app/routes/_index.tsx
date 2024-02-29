@@ -41,6 +41,7 @@
 // }
 
 import { Link } from "@remix-run/react"
+import { TextField } from "@mui/material"
 
 
 
@@ -51,6 +52,9 @@ const Index = () => {
       <br></br>
       <a href="/shop">shop</a>
       <h1>Hello Noval</h1>
+      <form action="/">
+        <TextField variant='outlined'></TextField>
+      </form>
     </>
   )
 }
