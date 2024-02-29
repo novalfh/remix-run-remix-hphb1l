@@ -31,7 +31,10 @@ export default function App() {
           <Scripts />
           <LiveReload />
         </NextUIProvider>
+        
       </body>
     </html>
   );
 }
+
+//hello
